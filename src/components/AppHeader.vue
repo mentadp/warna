@@ -11,7 +11,7 @@
         <router-link :to="{ name: 'convert' }" active-class="active" exact v-t="'navbar.convert'"></router-link>
         <router-link :to="{ name: 'picker' }" active-class="active" exact v-t="'navbar.picker'"></router-link>
 
-        <a href="https://github.com/nyancodeid/iro" target="_blank" rel="noopener">Github</a>
+        <a href="https://github.com/mentadp" target="_blank" rel="noopener">Github</a>
 
         <select class="select-locale" v-model="locale" :title="t('tooltip.select_lang')">
           <option value="en">🇺🇸 EN</option>
